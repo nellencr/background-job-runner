@@ -1,0 +1,25 @@
+[2024-11-13 11:24:27] Class 'App\Jobs\FailingJob' does not exist.
+[2024-11-13 11:24:38] Class 'App\Jobs\FailingJob' does not exist.
+[2024-11-13 11:24:42] Class 'App\Jobs\FailingJob' does not exist.
+[2024-11-13 11:27:10] Class 'Jobs\FailingJob' does not exist.
+[2024-11-13 11:27:29] Class 'Jobs\FailingJob' does not exist.
+[2024-11-13 11:49:00] Error: Class Jobs\FailingJob not found.
+[2024-11-13 11:49:00] Error: Class Jobs\FailingJob not found.
+[2024-11-13 11:51:18] Error: Class Jobs\FailingJob not found.
+[2024-11-13 11:51:18] Error: Class Jobs\FailingJob not found.
+[2024-11-13 11:54:21] Error: Class Jobs\FailingJob not found.
+[2024-11-13 11:54:21] Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:00:58] Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:00:58] Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:05:00] Error: Job failed
+[2024-11-13 12:05:00] Error: Job failed
+[2024-11-13 12:10:11] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:10:13] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:10:15] Attempt 2 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:31] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:33] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:35] Attempt 2 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:25:03] Error: Class Jobs\FailingJob does not exist.
+[2024-11-13 12:25:57] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:25:59] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:26:01] Attempt 2 - Error: Class Jobs\FailingJob not found.
