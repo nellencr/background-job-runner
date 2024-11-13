@@ -1,0 +1,38 @@
+[2024-11-13 11:14:56] Attempting to run SuccessJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 11:14:56] SuccessJob::handle executed successfully with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 11:14:56] Job SuccessJob::handle is running in the background.
+[2024-11-13 11:49:00] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 11:51:18] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 11:54:21] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:00:58] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:05:00] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:05:00] Jobs\FailingJob::handle is running in the background.
+[2024-11-13 12:10:11] [info] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:10:11] [error] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:10:11] [warning] Retrying Jobs\FailingJob::handle, attempt 1
+[2024-11-13 12:10:13] [info] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:10:13] [error] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:10:13] [warning] Retrying Jobs\FailingJob::handle, attempt 2
+[2024-11-13 12:10:15] [info] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:10:15] [error] Attempt 2 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:10:15] [error] Max retries reached for Jobs\FailingJob::handle. Job failed.
+[2024-11-13 12:14:31] [info] Attempt 0: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:14:31] [error] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:31] [warning] Retrying Jobs\FailingJob::handle, attempt 1
+[2024-11-13 12:14:33] [info] Attempt 1: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:14:33] [error] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:33] [warning] Retrying Jobs\FailingJob::handle, attempt 2
+[2024-11-13 12:14:35] [info] Attempt 2: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:14:35] [error] Attempt 2 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:14:35] [error] Max retries reached for Jobs\FailingJob::handle. Job failed.
+[2024-11-13 12:25:03] [info] Attempting to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:25:03] [error] Error: Class Jobs\FailingJob does not exist.
+[2024-11-13 12:25:57] [info] Attempt 0: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:25:57] [error] Attempt 0 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:25:57] [warning] Retrying Jobs\FailingJob::handle, attempt 1
+[2024-11-13 12:25:59] [info] Attempt 1: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:25:59] [error] Attempt 1 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:25:59] [warning] Retrying Jobs\FailingJob::handle, attempt 2
+[2024-11-13 12:26:01] [info] Attempt 2: Trying to run Jobs\FailingJob::handle with parameters: {"param1":"value1","param2":"value2"}
+[2024-11-13 12:26:01] [error] Attempt 2 - Error: Class Jobs\FailingJob not found.
+[2024-11-13 12:26:01] [error] Max retries reached for Jobs\FailingJob::handle. Job failed.
